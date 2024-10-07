@@ -1,0 +1,9 @@
+#!/bin/bash
+
+CURRENT_PATH="$(dirname $(realpath $0))"
+CUR_VIMRC="$CURRENT_PATH/.vimrc"
+
+VIMRC_LOC='~/.vimrc'
+
+echo "running ln -s $CUR_VIMRC $VIMRC_LOC"
+ln -s $CURRENT_PATH/.vimrc ~/.vimrc
