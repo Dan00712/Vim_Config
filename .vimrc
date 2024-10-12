@@ -84,7 +84,6 @@ set colorcolumn=84
 " Plugin code goes here.
 call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
-    Plug 'preservim/nerdtree'
    
     Plug 'rhysd/vim-color-spring-night'
 call plug#end()
@@ -144,11 +143,6 @@ augroup END
 " }}}
 
 " PLUGINS ---------------------------------------------------------------- {{{
-
-" Nerdtree
-nnoremap <F3> :NERDTreeToggle<cr>
-let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
-
 
 if has('termguicolors')
     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
