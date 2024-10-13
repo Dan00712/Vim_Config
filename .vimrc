@@ -101,6 +101,8 @@ nnoremap <leader>pv :Ex<esc>
 vnoremap <leader>y "+y
 nnoremap <leader>y "+y
 nnoremap <leader>Y "+Y
+nnoremap <leader>p "+p
+
 
 " Navigate the split view easier by pressing CTRL+j, CTRL+k, CTRL+h, or CTRL+l.
 nnoremap <c-j> <c-w>j
