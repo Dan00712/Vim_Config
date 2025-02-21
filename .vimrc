@@ -1,5 +1,8 @@
 " General Settings ---------------------------------------------------------------- {{{
 
+" Set utf-8 fileencoding
+set fileencoding=utf-8
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -86,6 +89,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
    
     Plug 'rhysd/vim-color-spring-night'
+
+    Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
 " }}}
 
