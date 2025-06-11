@@ -82,6 +82,9 @@ set colorcolumn=84
 
 let g:nighted_transparent_bg=1
 colorscheme nighted
+
+" enable spellchecker
+set spell
 " }}}
 
 " PLUGINS ---------------------------------------------------------------- {{{
