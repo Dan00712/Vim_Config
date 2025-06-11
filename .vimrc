@@ -80,6 +80,8 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 set colorcolumn=84
 
+let g:nighted_transparent_bg=1
+colorscheme nighted
 " }}}
 
 " PLUGINS ---------------------------------------------------------------- {{{
@@ -87,8 +89,6 @@ set colorcolumn=84
 " Plugin code goes here.
 call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
-   
-    Plug 'rhysd/vim-color-spring-night'
 
     Plug 'JuliaEditorSupport/julia-vim'
 call plug#end()
@@ -151,12 +151,6 @@ augroup END
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
-" if has('termguicolors')
-"     let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-"     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-"     set termguicolors
-" endif
-" colorscheme spring-night
 
 " }}}
 
