@@ -84,7 +84,7 @@ let g:nighted_transparent_bg=1
 colorscheme nighted
 
 " enable spellchecker
-set spell
+" set spell
 " }}}
 
 " PLUGINS ---------------------------------------------------------------- {{{
