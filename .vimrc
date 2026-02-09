@@ -156,6 +156,7 @@ augroup END
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
+" fuzzy toolbox
 nnoremap <silent> <leader>fb :FuzzyBuffers<CR>
 nnoremap <silent> <leader>fc :FuzzyCommands<CR>
 nnoremap <silent> <leader>ff :FuzzyFiles<CR>
