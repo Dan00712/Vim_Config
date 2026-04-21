@@ -96,6 +96,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'JuliaEditorSupport/julia-vim'
 
     Plug 'vim-fuzzbox/fuzzbox.vim'
+    Plug 'lervag/vimtex'
 call plug#end()
 " }}}
 
@@ -156,7 +157,7 @@ augroup END
 
 " PLUGINS ---------------------------------------------------------------- {{{
 
-" fuzzy toolbox
+" fuzzy toolbox --- {{{
 nnoremap <silent> <leader>fb :FuzzyBuffers<CR>
 nnoremap <silent> <leader>fc :FuzzyCommands<CR>
 nnoremap <silent> <leader>ff :FuzzyFiles<CR>
@@ -167,6 +168,13 @@ nnoremap <silent> <leader>fm :FuzzyMru<CR>
 nnoremap <silent> <leader>fp :FuzzyPrevious<CR>
 nnoremap <silent> <leader>fq :FuzzyQuickfix<CR>
 nnoremap <silent> <leader>fr :FuzzyMruCwd<CR>
+
+" }}}
+
+" VimTex --- {{{
+
+
+" }}}
 
 " }}}
 
